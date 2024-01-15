@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom left, dodgerblue, violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wr__login{
+    width: 350px;
+    height: 450px;
+    border: 0.5px solid #ddd;
+    text-align: center;
+    padding: 20px;   
+    position: relative;
+    z-index: 2;
+}
+.wr__login h1{
+    margin-bottom: 10px;
+    color: rgb(227, 42, 135);
+}
+input{
+    width: 90%;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(111, 104, 104);
+    padding-left: 15px;
+    outline: none;
+    margin-top: 15px;
+    background: transparent;
+    color: white;
+
+}
+button{
+    width: 90%;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient( 50deg, dodgerblue,  rgb(252, 2, 127) );
+    font-size: 18px;
+    font-weight: 530;
+    color: white;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 7px solid rgb(239, 81, 160);
+    border-radius: 10px;
+    position: absolute;
+    left: 130px;
+    bottom: 70px;
+    animation: Box1 10s linear infinite;
+}
+@keyframes Box1{
+    from{
+        transform: rotate(0);
+
+    }
+    to{
+        transform: rotate(180deg);
+    }
+
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 7px solid rgb(239, 81, 160);
+    border-radius: 10px;
+    position: absolute;
+    left: 130px;
+    bottom: 70px;
+    animation: Box2 10s linear infinite;
+}
+@keyframes Box2{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-180deg);
+    }
+}
+.rect1{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom left, dodgerblue, violet);
+    border-radius: 8px;
+
+    animation: Rect1 
+    40s linear infinite;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 500px;
+}
+@keyframes Rect1{
+
+    0%{
+        top: 180px;
+    }
+    5%{
+        top: 230px;
+    }
+    20%{
+        top: 180px;
+    }
+    25%{
+        top: 230px;
+    }
+    30%{
+        top: 180px;
+    }
+    35%{
+        top: 230px;
+    }
+    40%{
+        top: 180px;
+    }
+    45%{
+        top: 230px;
+    }
+    50%{
+        top: 180px;
+    }
+    55%{
+        top: 230px;
+    }
+    60%{
+        top: 180px;
+    }
+    65%{
+        top: 230px;
+    }
+    70%{
+        top: 180px;
+    }
+    75%{
+        top: 230px;
+    }
+    80%{
+        top: 180px;
+    }
+    85%{
+        top: 230px;
+    }
+    90%{
+        top: 180px;
+    }
+    95%{
+        top: 230px;
+    }
+    100%{
+        top: 180px;
+    }
+    
+    }
+.rect2{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom left, dodgerblue, violet);
+    border-radius: 8px;
+
+    animation: Rect2 
+    40s linear infinite;
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 800px;
+
+}
+@keyframes Rect2{
+    5%{
+        top: 460px;
+    }
+    10%{
+        top: 540px;
+    }
+    15%{
+        top: 460px;
+    }
+    20%{
+        top: 540px;
+    }
+    25%{
+        top: 460px;
+    }
+    30%{
+        top: 540px;
+    }
+    35%{
+        top: 460px;
+    }
+    40%{
+        top: 540px;
+    }
+    45%{
+        top: 460px;
+    }
+    50%{
+        top: 540px;
+    }
+    55%{
+        top: 460px;
+    }
+    60%{
+        top: 540px;
+    }
+    65%{
+        top: 460px;
+    }
+    70%{
+        top: 540px;
+    }
+    75%{
+        top: 460px;
+    }
+    80%{
+        top: 540px;
+    }
+    85%{
+        top: 460px;
+    }
+    90%{
+        top: 540px;
+    }
+    95%{
+        top: 460px;
+    }
+    100%{
+        top: 540px;
+    }
+}
